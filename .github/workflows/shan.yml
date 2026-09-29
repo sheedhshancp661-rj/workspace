@@ -1,10 +1,11 @@
-name: first work flow  
+name: first workflow
+
 on:
-push :
+     push:
 jobs:
   build:
-    runds-on: ubuntu-latest
-    steps:
-    name: print build start
-    run: echo "build start"
+    runs-on: ubuntu-latest
+    steps :
+    - name : print build start
+      run : echo "build start"
     
