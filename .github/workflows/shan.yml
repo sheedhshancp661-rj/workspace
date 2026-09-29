@@ -8,9 +8,9 @@ jobs:
     steps :
     - name : print build start
       run : echo "build start" 
- build:
+  test:
     runs-on: ubuntu-latest
     steps :
     - name : print pwd
-      run : echo "pwd"
+      run : pwd
         
