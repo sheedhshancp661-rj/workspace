@@ -1,0 +1,10 @@
+name: first work flow  
+on:
+push :
+jobs:
+  build:
+    runds-on: ubuntu-latest
+    steps:
+    name: print build start
+    run: echo "build start"
+    
